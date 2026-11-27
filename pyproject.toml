@@ -23,7 +23,9 @@ requires = ["scikit-build-core>=0.11"]
 build-backend = "scikit_build_core.build"
 
 [project]
-name = "pyecrad"
+# TEST: published as pyecrad-SR while the wheel workflow (pyecrad_wheels.yml)
+# is being developed; to be changed back to pyecrad 
+name = "pyecrad-SR"
 dynamic = ["version"]
 description = "Python interface to the ecRad atmospheric radiation scheme"
 readme = "pyecrad/README.md"
